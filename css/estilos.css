@@ -1,0 +1,24 @@
+body {
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
+  color: black;
+}
+
+.sidebar {
+  height: calc(100vh - 110px);
+  /*height: 100vh;*/
+  /*min-height: calc(100vh - 160px);*/
+}
+.Contenido {
+  height: calc(100vh - 110px);
+  /*height: 100vh;*/
+  /*min-height: calc(100vh - 160px);*/
+  border-color: red;
+}
+ 
+
+.sidebar-nav {
+  width: calc(100% * 0.8); /* 70% del ancho del contenedor del sidebar */
+  color : black;
+}
+  
